@@ -37,7 +37,7 @@ const getImage = async () => {
 
     renderSlider([currentCard, nextCard, prevCard], dogList);
 
-    renderSlider([currentImage, nextImage, prevImage], dogList);
+    renderSlider([prevImage, currentImage, nextImage], dogList);
   } catch (error) {
     return error;
   }
